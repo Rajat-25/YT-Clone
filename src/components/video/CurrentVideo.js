@@ -10,6 +10,7 @@ const CurrentVideo = ({ video }) => {
           src={`https://www.youtube.com/embed/${video.id.videoId}`}
           frameBorder='0'
           className='currentVideoIframe'
+          title={video.snippet.title}
         />
       </div>
       <div className='currentVideoDetail'>

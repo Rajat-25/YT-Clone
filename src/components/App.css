@@ -105,6 +105,7 @@ p {
 
 .videoList {
   max-width: 50rem;
+  padding: 1rem;
 }
 
 .video {
